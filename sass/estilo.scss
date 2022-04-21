@@ -1,0 +1,37 @@
+$display-font-weight: 80;
+
+.mainIndex{
+    display: grid;
+    background-color: black;
+    background-image: url(../img/court-hammer-and-books-judgment-and-law-concept.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    align-items: center; 
+
+    .titulo{
+        margin-right: 300px;
+    }
+}
+
+@media(max-width: 1252px){
+    .titulo{
+        margin-right: 100px !important;
+    }
+}
+
+@media(max-width: 806px){
+    .titulo{
+        margin-right: 50px !important;
+    }
+}
+
+@media(max-width: 426px){
+    .mainIndex{
+        align-items: unset; 
+        .titulo{
+            margin-right: 10px !important;
+            margin-top: 85px;
+        }
+    }
+}
